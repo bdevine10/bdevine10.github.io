@@ -11,7 +11,21 @@ img {max-width:100%;
 }
 .port-images {
 margin-left: 30%;
+margin-right: 30%;
 width:500px;
+}
+
+.formcontainer{
+    display: inline-block;
+    width: 600px;
+    clear: both;
+    margin: 3%;
+}
+
+.formcontainer input{
+    text-align: center;
+    width: 75%;
+    clear: both;
 }
 /*--------------------------------------------------------------
 # Links
@@ -218,18 +232,6 @@ a:hover, a:active {
     .site-navigation ul li a {
         padding: 49px 0 30px;
     }
-}
-
-.formcontainer{
-    display: inline-block;
-    width: 500px;
-    clear: both;
-}
-
-.formcontainer input{
-    text-align: center;
-    width: 100%;
-    clear: both;
 }
 
 

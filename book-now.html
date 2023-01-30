@@ -80,26 +80,24 @@
             </div><!-- .container -->
         </div><!-- .nav-bar -->
     </header><!-- .site-header -->
-<form method="post" name="booknowform" action="./PHPMailer/examples/book-to-email.php">
-                <div style="text-align: center;">
-            <br><h2 style="color: #FF66C4;">Contact Me</h2><br><br>
+<form method="post" name="booknowform">
+            <br><h2 style="color: #FF66C4; text-align: center;">Contact Me</h2><br><br>
     <div class="formcontainer">
-        
-    Name: <input style="text-align: center;" type="text" name="name"><br><br>
-    Phone Number: <input style="text-align: center;" type="text" name="phonenumber"><br><br>
-    Email: <input type="text" name="email"><br><br>
-    Describe Event: <textarea rows="2" name="describeevent"></textarea><br><br>
-    Event Date: <input type="text" name="eventdate"><br><br><br>
-</div></div>
-<div style="text-align: center;">
+    Name: <br><input type="text" name="name"><br><br>
+    Phone Number: <br><input type="text" name="phonenumber"><br><br>
+    Email: <br><input type="text" name="email"><br><br>
+    Describe Event: <br><textarea rows="2" name="describeevent"></textarea><br><br>
+    Event Date: <br><input type="date" name="eventdate"><br><br><br>
+</div>
+<div style="text-align: left; margin-left: 3%;">
     What Services are you interested in? <br>
         <input type="checkbox" name="balloonscheck"> Balloons<br>
         <input type="checkbox" name="marqueescheck"> Neon Signs<br>
-        <input type="checkbox" name="backdropcheck"> Backdrops/Other Rentals<br>
+        <input type="checkbox" name="backdropcheck"> Balloons and Backdrop<br>
         <input type="checkbox" name="donutcheck"> Donut Wall<br>
-    <br>
-        <input type="submit" value="Book It"><br><br>
-</div>
+        <input type="checkbox" name="donutcheck"> Grab and Go<br>
+    <br></div>
+        <div style="text-align: center;"> <input type="submit" value="Book It"></div><br><br>
 </form>
 
 
