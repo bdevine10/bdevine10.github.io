@@ -158,6 +158,21 @@
         $('.portfolio-item:hidden').slice(0, 9).addClass('visible');
     });
 
+    $('#booknow').submit(function(e){
+    e.preventDefault();
+    $.ajax({
+        url: 'https://script.google.com/macros/s/AKfycbyNeJ9PcLG7exu-HcT8n-OVNLFEAXKvZag612e8-zhFfXJpJ_U8NVgAgB9XoZ8T8RECZA/exec',
+        type: 'post',
+        dataType: "json",
+        data:$('#booknow').serialize()
+            }).done(function(__e){
+            console.log('Remote sheet updated!',__e);
+        }
+      ).fail(function(__e){
+        $(location).prop('href', 'https://www.madimadeballoons.com/book-success.html');
+      });
+    });
+
 
 
 })(jQuery);
