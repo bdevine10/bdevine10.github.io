@@ -17,14 +17,19 @@ width:500px;
 
 .formcontainer{
     display: inline-block;
-    width: 600px;
+    width: 90%;
     clear: both;
     margin: 3%;
 }
 
 .formcontainer input{
     text-align: center;
-    width: 75%;
+    width: 100%;
+    clear: both;
+}
+.textarea{
+    text-align: center;
+    width: 100%;
     clear: both;
 }
 /*--------------------------------------------------------------
